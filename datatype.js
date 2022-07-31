@@ -1,16 +1,18 @@
 // Javascript is the primary datatype 2 items.
 // 1. Primitive
-Number - 20, 34.232, 12.00
-String - "this is a text" + 'this is a document'
-Boolean - ture / false
-undefined - faka, patro, jekhane, kono, kisu, defined, kora, hoy, ni;
-NaN - nan, jar, kono, value, deoya, hoy, ni;
+// Number - 20, 34.232, 12.00
+// String - "this is a text" + 'this is a document'
+// Boolean - ture / false
+// undefined - faka, patro, jekhane, kono, kisu, defined, kora, hoy, ni;
+// NaN - nan, jar, kono, value, deoya, hoy, ni;
 
 
 // 2. Object     
-// Array - name[0], name[1], name[2], name[3] jekhane, onek, number, niye, kaj, kora, jay;
-// Object - { secound, braket, er, modhe, diye, jevabe, data, declar, kore };
-// Function - function() {};
+// Array
+// names = name[0], name[1], name[2], name[3] + jekhane, onek, number, niye, kaj, kora, jay;
+// Object
+// reserved = { secound, braket, er, modhe, diye, jevabe, data, declar, kore };
+Function = function() {};
 
 // *************  NUMNERS START ************ //
 
@@ -21,7 +23,9 @@ console.log(flo);
 console.log(Number.parseFloat(num));
 
 console.log(Number.MAX_VALUE);
-console.log(Number.MIN_SAFE_INTEGER);
+1.7976931348623157e+308
+console.log(Number.MIN_SAFE_INTEGER); -
+9007199254740991
 console.log(1 / 0);
 console.log('string' * 10);
 
